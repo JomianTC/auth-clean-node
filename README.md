@@ -1,4 +1,4 @@
-### Proyecto de Autenticación con Node
+# Proyecto de Autenticación con Node
 
 Proyecto del curso de Fernando Herrera Node - Autenticación con Clean Architecture
 
