@@ -1,0 +1,27 @@
+### Este archivo funciona con la extension de VS-CODE
+### REST-CLIENT
+
+### Login Request
+GET http://localhost:3000/api/auth
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY1YjAzOGE5ODgwYTI2ZDJjN2Y5YmU4YyIsImlhdCI6MTcwNjA0NzY1NywiZXhwIjoxNzA2MDU0ODU3fQ.Ld-Mm2AmdM8xRdBgZzkwiASEROzgZqsgMlMJCeXMxSE
+
+### Login Request
+POST http://localhost:3000/api/auth/login
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY1YjA1OTllYmU1N2MyZjU2ZDM5NTgxZCIsImlhdCI6MTcwNjA1NjA5NCwiZXhwIjoxNzA2MDYzMjk0fQ.QWlAiwpkLXZCvPJa3X1uneNVU0s0dvStO5IXKBRN1jM
+Content-Type: application/json
+
+{
+	"name": "Miguel Angel",
+	"email": "jomiantoca2025@gmail.com",
+	"password": "123456"
+}
+
+### Register Request
+POST http://localhost:3000/api/auth/register
+Content-Type: application/json
+
+{
+	"name": "Miguel Angel",
+	"email": "jomiantoca2025@gmail.com",
+	"password": "123456"
+}

@@ -1,0 +1,9 @@
+
+# NODE
+/node_modules
+
+# ENV
+.env
+
+#Database
+mongo

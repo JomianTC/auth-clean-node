@@ -1,0 +1,16 @@
+{
+	"exclude": ["node_modules", "**/*.spec.ts", "**/*.test.ts"],
+	"compilerOptions": {
+		"target": "ES2016",
+		"module": "commonjs",
+		"outDir": "./dist",
+		"esModuleInterop": true,
+		"strict": true,
+		"removeComments": true,
+		"noImplicitAny": false,
+		"noUnusedLocals": true,
+		"noUnusedParameters": true,
+		"noImplicitReturns": true,
+		"skipLibCheck": true,
+	}
+}
